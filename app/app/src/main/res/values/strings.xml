@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">PlantIT</string>
+    <string name="recognize_bttn">Recoginze plant</string>
+    <string name="search_bttn">Search plant</string>
+    <string name="photo_bttn">Take a photo</string>
+    <string name="storage_bttn">Your photos</string>
+    <string name="cancel_button">Cancel</string>
+    <string name="search_field">Search</string>
+    <string name="edible">edible</string>
+    <string name="no_data">no data</string>
+    <string name="edible_part">edible part:</string>
+    <string name="ligneous_type">ligneous type:</string>
+    <string name="growth_form">growth form:</string>
+    <string name="growth_habit">growth habit:</string>
+    <string name="growth_rate">growth rate:</string>
+    <string name="average_height">average height:</string>
+    <string name="max_height">max height:</string>
+</resources>

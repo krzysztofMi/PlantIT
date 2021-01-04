@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:background="@drawable/leaf">
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Plant"
+                android:textSize="60dp"
+                android:textColor="@color/green"
+                android:layout_marginLeft="110dp"
+                android:fontFamily="@font/black" />
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="IT"
+                android:textSize="60dp"
+                android:textColor="@color/white"
+                android:fontFamily="@font/black" />
+    </LinearLayout>
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="40dp"
+            android:text="@string/recognize_bttn"
+
+            android:textColor="@color/white"
+            android:fontFamily="@font/black" />
+    <Button
+            android:id="@+id/photo_bttn"
+            android:background="@drawable/my_button"
+            android:textColor="@color/white"
+            android:text="@string/photo_bttn"
+            android:textSize="30dp"
+            android:fontFamily="@font/segoe"
+            android:textAllCaps="false"
+            android:layout_marginTop="200dp"
+            android:layout_marginBottom="30dp"
+            android:layout_width="282dp"
+            android:layout_height="wrap_content" />
+
+    <Button
+            android:id="@+id/storage_bttn"
+            android:text="@string/storage_bttn"
+            android:background="@drawable/my_button"
+            android:textColor="@color/white"
+            android:textSize="30dp"
+            android:fontFamily="@font/segoe"
+            android:textAllCaps="false"
+            android:layout_marginBottom="100dp"
+            android:layout_width="286dp"
+            android:layout_height="wrap_content" />
+
+    <Button
+            android:id="@+id/cancel_bttn"
+            android:text="@string/cancel_button"
+            android:fontFamily="@font/segoe"
+            android:textAllCaps="false"
+            android:background="@drawable/my_button_darker"
+            android:textColor="@color/white"
+            android:textSize="30dp"
+            android:layout_width="286dp"
+            android:layout_height="wrap_content"/>
+
+</LinearLayout>

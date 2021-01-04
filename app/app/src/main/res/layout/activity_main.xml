@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:background="@drawable/leaf">
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="184dp"
+            android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Plant"
+            android:textSize="60dp"
+            android:textColor="@color/green"
+            android:layout_marginLeft="110dp"
+            android:fontFamily="@font/black" />
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="IT"
+                android:textSize="60dp"
+                android:textColor="@color/white"
+                android:fontFamily="@font/black" />
+    </LinearLayout>
+
+    <Button
+            android:id="@+id/recognize_bttn"
+            android:background="@drawable/my_button"
+            android:textColor="@color/white"
+            android:text="@string/recognize_bttn"
+            android:fontFamily="@font/segoe"
+            android:textAllCaps="false"
+            android:textSize="30dp"
+            android:layout_marginTop="200dp"
+            android:layout_marginBottom="80dp"
+            android:layout_width="282dp"
+            android:layout_height="wrap_content" />
+
+    <Button
+            android:id="@+id/search_bttn"
+            android:text="@string/search_bttn"
+            android:fontFamily="@font/segoe"
+            android:textAllCaps="false"
+            android:background="@drawable/my_button"
+            android:textColor="@color/white"
+            android:textSize="30dp"
+            android:layout_width="286dp"
+            android:layout_height="wrap_content" />
+
+</LinearLayout>

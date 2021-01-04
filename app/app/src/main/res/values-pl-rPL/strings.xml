@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Plantaro</string>
+    <string name="photo_bttn">Zrób zdjęcie</string>
+    <string name="search_bttn">Szukaj rośliny</string>
+    <string name="storage_bttn">Twoje zdjęcia</string>
+    <string name="cancel_button">Anuluj</string>
+    <string name="recognize_bttn">Rozpoznaj roślinę</string>
+    <string name="search_field">Szukaj</string>
+    <string name="edible">jadalne</string>
+    <string name="no_data">brak danych</string>
+    <string name="edible_part">część jadalna:</string>
+    <string name="ligneous_type">typ drzewiasty:</string>
+    <string name="growth_form">forma wzrostu:</string>
+    <string name="growth_habit">typ wzrostu</string>
+    <string name="growth_rate">szybkośc wzrostu:</string>
+    <string name="average_height">średnia wysokość:</string>
+    <string name="max_height">maksymalna wysokość:</string>
+</resources>

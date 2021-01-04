@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent"
+        tools:context=".PlantInfoFragment"
+        android:layout_gravity="center_vertical|center_horizontal"
+        android:foregroundGravity="center"
+        android:background="@drawable/leaf">
+    <TextView android:id="@+id/plant_name"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:textSize="30dp"
+            android:fontFamily="@font/black"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:text="Placeholder"/>
+    <TextView android:id="@+id/plant_sf_name"
+            android:layout_gravity="center"
+            android:textSize="25dp"
+            android:layout_width="wrap_content"
+            android:textColor="@color/white"
+            android:layout_height="wrap_content"
+            android:text="Placeholder"/>
+    <TextView android:id="@+id/description"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:layout_gravity="center"
+            android:text="placeholder"
+            android:textColor="#000"
+            android:background="@color/white"
+            android:scrollbars = "vertical"/>
+</LinearLayout>
